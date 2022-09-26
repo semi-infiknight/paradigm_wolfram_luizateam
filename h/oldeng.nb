@@ -1,0 +1,740 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{"oldEng"," ","="," ",RowBox[
+{RowBox[{"ResourceFunction","[","\"TextTake\"","]"}],"[","\n"," ",RowBox[{RowBox[
+{"ResourceData","[","\"Beowulf - Old English\"","]"}],",","3",","," ","\"Sentence\""}],"]"}]}],"\n",RowBox[
+{"newEng"," ","="," ",RowBox[{RowBox[{"ResourceFunction","[","\"TextTake\"","]"}],"[","\n"," ",RowBox[
+{RowBox[{"ResourceData","[","\"Beowulf - Modern English\"","]"}],","," ","1",","," ","\"Sentence\""}],"]"}]}],RowBox[
+{"\n","\n"}],RowBox[{"TextStructure","[","oldEng","]"}],"\n",RowBox[{"TextStructure","[","newEng","]"}]}],
+"Input",CellLabel -> "In[80]:= ",ExpressionUUID -> "3af4b322-455b-43c9-95e7-b7ca31fd2ed0"],Cell[
+BoxData[
+"\"I. THE PASSING OF SCYLD.\\n\\nHw\[ADoubleDot]t! we G\[AHat]r-Dena      in ge\[AHat]r-dagum\\n\[Thorn]e\[OAcute]d-cyninga      \[Thorn]rym gefrunon,\\nh\[UHat] \[Thorn]\[AHat] \[ADoubleDot]\[Eth]elingas      ellen fremedon.\"",
+StandardForm],"Output",CellLabel -> "Out[80]= ",ExpressionUUID -> "79cd81c2-184b-4639-bdad-fcbe19406d68"],Cell[
+BoxData[
+"\"LO, praise of the prowess of people-kings\\nof spear-armed Danes, in days long sped,\\nwe have heard, and what honor the athelings won!\"",
+StandardForm],"Output",CellLabel -> "Out[81]= ",ExpressionUUID -> "98717485-2315-46a5-a6b7-a2493e24250f"],Cell[
+BoxData[
+InterpretationBox[RowBox[{GridBox[{{InterpretationBox[GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"I\""},{StyleBox[
+"\"Proper Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"I",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","ProperNoun"]]]],InterpretationBox[
+GridBox[{{"\".\""},{StyleBox["\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[".",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["I",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"ProperNoun"]]],TextElement[".",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Punctuation"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"THE\""},{StyleBox["\"Determiner\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["THE",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]]],InterpretationBox[
+GridBox[{{"\"PASSING\""},{StyleBox["\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["PASSING",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["THE",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Determiner"]]],TextElement["PASSING",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"OF\""},{StyleBox[
+"\"Preposition\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"OF",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"SCYLD\""},{StyleBox[
+"\"Proper Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"SCYLD",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","ProperNoun"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["SCYLD",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"ProperNoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Prepositional Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["OF",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["SCYLD",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","ProperNoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement[{TextElement["THE",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Determiner"]]],TextElement["PASSING",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["OF",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["SCYLD",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","ProperNoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{"\".\""},{StyleBox["\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[".",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement[{TextElement["I",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","ProperNoun"]]],TextElement[".",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement[{TextElement["THE",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Determiner"]]],TextElement["PASSING",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["OF",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["SCYLD",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","ProperNoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+".",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],""}},GridBoxDividers -> {"Columns" -> {{False,False,True}}},
+BaseStyle -> "TextElementGrid"],GridBox[{{InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[
+GridBox[{{"\"Hw\[ADoubleDot]t\""},{StyleBox["\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["Hw\[ADoubleDot]t",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Verb"]]]]},"RowWithSeparators"]},{StyleBox["\"Verb Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["Hw\[ADoubleDot]t",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","VerbPhrase"]]]],InterpretationBox[GridBox[{{"\"!\""},{StyleBox[
+"\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"!",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Sentence\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement[{TextElement["Hw\[ADoubleDot]t",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]],TextElement["!",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Punctuation"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Sentence"]]]],""}},
+GridBoxDividers -> {"Columns" -> {{False,False,True}}},BaseStyle -> "TextElementGrid"],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[
+GridBox[{{"\"we\""},{StyleBox["\"Pronoun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Pronoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"G\[AHat]r-Dena\""},{StyleBox[
+"\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["G\[AHat]r-Dena",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"in\""},{StyleBox[
+"\"Preposition\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"ge\[AHat]r-dagum\""},{StyleBox[
+"\"Adjective\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"ge\[AHat]r-dagum",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]]],InterpretationBox[
+GridBox[{{"\"\[Thorn]e\[OAcute]d-cyninga\""},{StyleBox["\"Adjective\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement["\[Thorn]e\[OAcute]d-cyninga",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]]],InterpretationBox[GridBox[
+{{"\"\[Thorn]rym\""},{StyleBox["\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["\[Thorn]rym",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]],InterpretationBox[GridBox[{{"\"gefrunon\""},{StyleBox["\"Noun\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement["gefrunon",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]]},"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["ge\[AHat]r-dagum",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]e\[OAcute]d-cyninga",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement[
+"\[Thorn]rym",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]],TextElement[
+"gefrunon",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Prepositional Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Preposition"]]],TextElement[{TextElement["ge\[AHat]r-dagum",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]e\[OAcute]d-cyninga",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]rym",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]],TextElement["gefrunon",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]]},"RowWithSeparators"]},{StyleBox["\"Verb Phrase\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[{TextElement["G\[AHat]r-Dena",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[{TextElement[
+"in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement["ge\[AHat]r-dagum",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adjective"]]],TextElement["\[Thorn]e\[OAcute]d-cyninga",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]rym",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]],TextElement["gefrunon",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Clause\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[{TextElement[
+{TextElement["we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["G\[AHat]r-Dena",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Verb"]]],TextElement[{TextElement["in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Preposition"]]],TextElement[{TextElement["ge\[AHat]r-dagum",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]e\[OAcute]d-cyninga",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]rym",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]],TextElement["gefrunon",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Clause"]]]],InterpretationBox[GridBox[{{"\",\""},{StyleBox["\"Punctuation\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]]],InterpretationBox[GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[
+GridBox[{{"\"h\[UHat]\""},{StyleBox["\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["h\[UHat]",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]],InterpretationBox[GridBox[{{"\"\[Thorn]\[AHat]\""},{StyleBox["\"Noun\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["\[Thorn]\[AHat]",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["h\[UHat]",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]],TextElement["\[Thorn]\[AHat]",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"\[ADoubleDot]\[Eth]elingas\""},{StyleBox[
+"\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["\[ADoubleDot]\[Eth]elingas",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"ellen\""},{StyleBox[
+"\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["ellen",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]],InterpretationBox[
+GridBox[{{"\"fremedon\""},{StyleBox["\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["fremedon",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]]},"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["ellen",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]],TextElement["fremedon",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]]},"RowWithSeparators"]},{StyleBox["\"Verb Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["\[ADoubleDot]\[Eth]elingas",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[{TextElement[
+"ellen",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]],TextElement[
+"fremedon",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","VerbPhrase"]]]],InterpretationBox[GridBox[{{"\".\""},{StyleBox[
+"\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+".",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Sentence\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement[{TextElement[{TextElement["we",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Pronoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["G\[AHat]r-Dena",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["in",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["ge\[AHat]r-dagum",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]e\[OAcute]d-cyninga",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement[
+"\[Thorn]rym",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]],TextElement[
+"gefrunon",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Clause"]]],TextElement[",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Punctuation"]]],TextElement[{TextElement["h\[UHat]",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]],TextElement["\[Thorn]\[AHat]",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["\[ADoubleDot]\[Eth]elingas",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[{TextElement[
+"ellen",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]],TextElement[
+"fremedon",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","VerbPhrase"]]],TextElement[".",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Sentence"]]]]}],TextElement[{TextElement[{TextElement[{TextElement["I",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","ProperNoun"]]],TextElement[".",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[{TextElement["THE",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement["PASSING",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[
+"OF",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement["SCYLD",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","ProperNoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[".",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[{TextElement["Hw\[ADoubleDot]t",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement["!",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Sentence"]]],TextElement[{TextElement[{TextElement[{TextElement[
+"we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[
+"G\[AHat]r-Dena",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement["ge\[AHat]r-dagum",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adjective"]]],TextElement["\[Thorn]e\[OAcute]d-cyninga",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Adjective"]]],TextElement["\[Thorn]rym",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]],TextElement["gefrunon",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Clause"]]],TextElement[",",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[{TextElement[
+"h\[UHat]",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]],TextElement[
+"\[Thorn]\[AHat]",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["\[ADoubleDot]\[Eth]elingas",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["ellen",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]],TextElement["fremedon",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[
+".",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Sentence"]]]}]],StandardForm],"Output",
+CellLabel -> "Out[82]= ",ExpressionUUID -> "7a20bd84-7a10-474e-8605-d938672be8cc"],Cell[
+BoxData[
+InterpretationBox[TemplateBox[{InterpretationBox[GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"LO\""},{StyleBox[
+"\"Adverb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["LO",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Adverb Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["LO",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","AdverbPhrase"]]]],InterpretationBox[
+GridBox[{{"\",\""},{StyleBox["\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"praise\""},{StyleBox["\"Noun\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["praise",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["praise",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"of\""},{StyleBox[
+"\"Preposition\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"the\""},{StyleBox["\"Determiner\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["the",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]]],InterpretationBox[
+GridBox[{{"\"prowess\""},{StyleBox["\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["prowess",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Determiner"]]],TextElement["prowess",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"of\""},{StyleBox[
+"\"Preposition\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"people-kings\""},{StyleBox[
+"\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["people-kings",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["people-kings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"of\""},{StyleBox[
+"\"Preposition\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"spear-armed\""},{StyleBox[
+"\"Adjective\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"spear-armed",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]]],InterpretationBox[
+GridBox[{{"\"Danes\""},{StyleBox["\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["Danes",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["spear-armed",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adjective"]]],TextElement["Danes",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Prepositional Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["spear-armed",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["Danes",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]]},"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[{TextElement[{TextElement[
+"people-kings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement["spear-armed",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adjective"]]],TextElement["Danes",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Prepositional Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Preposition"]]],TextElement[{TextElement[{TextElement["people-kings",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["spear-armed",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["Danes",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"PrepositionalPhrase"]]]],InterpretationBox[GridBox[{{"\",\""},{StyleBox["\"Punctuation\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[",",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"in\""},{StyleBox[
+"\"Preposition\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"days\""},{StyleBox["\"Noun\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["days",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["days",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"long\""},{StyleBox["\"Adverb\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["long",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Adverb Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["long",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","AdverbPhrase"]]]],InterpretationBox[
+GridBox[{{"\"sped\""},{StyleBox["\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["sped",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]],InterpretationBox[
+GridBox[{{"\",\""},{StyleBox["\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{TemplateBox[
+{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"we\""},{StyleBox["\"Pronoun\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["we",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"have\""},{StyleBox[
+"\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["have",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"heard\""},{StyleBox[
+"\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["heard",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Verb Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["heard",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Verb Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["have",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["heard",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]],InterpretationBox[
+GridBox[{{"\",\""},{StyleBox["\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]],InterpretationBox[
+GridBox[{{"\"and\""},{StyleBox["\"Conjunction\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["and",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"what\""},{StyleBox[
+"\"Wh-Pronoun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Wh-Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"WhPronoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"honor\""},{StyleBox[
+"\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["honor",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"the\""},{StyleBox[
+"\"Determiner\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+"the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]]],InterpretationBox[
+GridBox[{{"\"athelings\""},{StyleBox["\"Noun\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]]},"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["the",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Determiner"]]],TextElement["athelings",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]]},"RowWithSeparators"]},{StyleBox["\"Verb Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["honor",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["the",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Determiner"]]],TextElement["athelings",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Clause\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement[{TextElement["we",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Pronoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["have",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["heard",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+"and",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]]},"RowWithSeparators"]},{StyleBox["\"Verb Phrase\"",
+"TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[{TextElement[{TextElement[
+"long",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","AdverbPhrase"]]],TextElement["sped",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[",",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+{TextElement[{TextElement["we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Pronoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["have",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["heard",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[",",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement["and",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]]},"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement[{TextElement["days",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[{TextElement["long",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","AdverbPhrase"]]],TextElement["sped",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement[{TextElement["we",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement["have",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["heard",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+"and",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Prepositional Phrase\"","TextElementLabel"]}},
+BaseStyle -> "TextElementGrid"],TextElement[{TextElement["in",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement[{TextElement["days",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[{TextElement["long",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","AdverbPhrase"]]],TextElement["sped",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement[{TextElement["we",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement["have",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["heard",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+"and",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement[{TextElement["the",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Determiner"]]],TextElement["prowess",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement[{TextElement["people-kings",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[
+"of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement["spear-armed",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adjective"]]],TextElement["Danes",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+{TextElement["in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement[{TextElement["days",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement[{TextElement["long",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adverb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","AdverbPhrase"]]],TextElement[
+"sped",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+{TextElement[{TextElement["we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Pronoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["have",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["heard",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[",",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement["and",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Prepositional Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Preposition"]]],TextElement[{TextElement[{TextElement["the",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Determiner"]]],TextElement["prowess",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement[{TextElement["people-kings",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[
+"of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement["spear-armed",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adjective"]]],TextElement["Danes",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+{TextElement["in",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement[{TextElement["days",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement[{TextElement["long",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Adverb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","AdverbPhrase"]]],TextElement[
+"sped",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+{TextElement[{TextElement["we",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Pronoun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["have",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["heard",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[",",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement["and",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Noun Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement[{TextElement["praise",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement[{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Determiner"]]],TextElement["prowess",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement[{TextElement["people-kings",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["spear-armed",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["Danes",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"PrepositionalPhrase"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement["in",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement[{TextElement["days",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[{TextElement["long",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","AdverbPhrase"]]],TextElement["sped",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement[{TextElement["we",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement["have",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["heard",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+"and",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]],InterpretationBox[
+GridBox[{{TemplateBox[{"\[ThinSpace]","\" \"",InterpretationBox[GridBox[{{"\"won\""},{StyleBox[
+"\"Verb\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement["won",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]]},"RowWithSeparators"]},{StyleBox[
+"\"Verb Phrase\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],TextElement[
+{TextElement["won",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]],InterpretationBox[
+GridBox[{{"\"!\""},{StyleBox["\"Punctuation\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement["!",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]]},
+"RowWithSeparators"]},{StyleBox["\"Sentence\"","TextElementLabel"]}},BaseStyle -> "TextElementGrid"],
+TextElement[{TextElement[{TextElement["LO",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Adverb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"AdverbPhrase"]]],TextElement[",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Punctuation"]]],TextElement[{TextElement[{TextElement["praise",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement[{TextElement["the",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement["prowess",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[
+"of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement[{TextElement["people-kings",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["spear-armed",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["Danes",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"PrepositionalPhrase"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement["in",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement[{TextElement["days",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[{TextElement["long",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","AdverbPhrase"]]],TextElement["sped",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement[{TextElement["we",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement["have",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["heard",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+"and",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[
+"won",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement["!",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Sentence"]]]]},"RowDefault"],TextElement[{TextElement[{TextElement[
+{TextElement["LO",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","AdverbPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+{TextElement[{TextElement["praise",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement[{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Determiner"]]],TextElement["prowess",Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[
+{TextElement["of",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Preposition"]]],TextElement[
+{TextElement[{TextElement["people-kings",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"NounPhrase"]]],TextElement[{TextElement["of",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement["spear-armed",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adjective"]]],TextElement["Danes",
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","PrepositionalPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"PrepositionalPhrase"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement["in",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Preposition"]]],TextElement[{TextElement[{TextElement["days",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[{TextElement["long",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Adverb"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","AdverbPhrase"]]],TextElement["sped",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[",",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Punctuation"]]],TextElement[{TextElement[{TextElement["we",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Pronoun"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement["have",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]],TextElement[{TextElement["heard",Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Verb"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement[
+",",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]],TextElement[
+"and",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Conjunction"]]],TextElement[
+{TextElement["what",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhPronoun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","WhNounPhrase"]]],TextElement[
+{TextElement["honor",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]],TextElement[
+{TextElement["the",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Determiner"]]],TextElement[
+"athelings",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Noun"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Clause"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit",
+"VerbPhrase"]]]},Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},
+Association["GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","PrepositionalPhrase"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","NounPhrase"]]],TextElement[{TextElement[
+"won",Association["GrammaticalUnit" -> Entity["GrammaticalUnit","Verb"]]]},Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","VerbPhrase"]]],TextElement["!",Association[
+"GrammaticalUnit" -> Entity["GrammaticalUnit","Punctuation"]]]},Association["GrammaticalUnit" -> Entity[
+"GrammaticalUnit","Sentence"]]]}]],StandardForm],"Output",CellLabel -> "Out[83]= ",
+ExpressionUUID -> "14c83c19-1c0e-42a1-b7c5-9646a6e17796"]},Open],ExpressionUUID -> "724fe6db-ba17-4831-bedf-ef07b8dd93b9"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "13.1 for Wolfram Cloud 1.63.0.1 (July 14, 2022)"]

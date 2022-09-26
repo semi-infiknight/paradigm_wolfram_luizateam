@@ -1,0 +1,27 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{RowBox[{RowBox[{RowBox[{RowBox[
+{"#","!"}],"/","usr"}],"/","bin"}],"/","env"}]," ","wolframscript"," "}],"\n",RowBox[
+{"oddList"," ","="," ",RowBox[{"{","}"}]}],"\n",RowBox[{"evenList","="," ",RowBox[
+{"{","}"}]}],"\n",RowBox[{RowBox[{"OddBeforeEven","[",RowBox[{"list"," ",":"," ",RowBox[
+{"{","__Integer","}"}]}],"]"}]," ",":="," ",RowBox[{"(",RowBox[{RowBox[{"Do","[",RowBox[
+{RowBox[{"If","[",RowBox[{RowBox[{"OddQ","[","i","]"}],",",RowBox[{"AppendTo","[",RowBox[
+{"oddList",",","i"}],"]"}],",",RowBox[{"AppendTo","[",RowBox[{"evenList",",","i"}],"]"}]}],"]"}],","," ",RowBox[
+{"{",RowBox[{"i",","," ","list"}],"}"}]}],"]"}],";",RowBox[{"Join","[",RowBox[{"oddList",","," ","evenList"}],"]"}]}],")"}]}],"\n",RowBox[
+{RowBox[{"(*"," ",RowBox[{"define"," ","function"," ","body"}]," ","*)"}],"\n","\n",RowBox[
+{"(*"," ",RowBox[{"boilerplate"," ","code"," ","to"," ","read"," ","input"," ","and"," ","write"," ","output"}]," ","*)"}],"\n",RowBox[
+{RowBox[{"answer"," ","="," ",RowBox[{"OddBeforeEven","[",RowBox[{"{",RowBox[{"1",","," ","28",","," ","44",","," ","7",","," ","5",","," ","6",","," ","7",","," ","8",","," ","9",","," ","11"}],"}"}],"]"}]}],";"}]," "}],"\n",RowBox[
+{RowBox[{RowBox[{"Print","[","answer","]"}],";"}],"\n"}]}],"Input",CellLabel -> "In[1]:= ",
+ExpressionUUID -> "d1cf7340-6ec2-4b7f-b27e-e07272e38379"],Cell[
+BoxData[FractionBox[
+RowBox[{"wolframscript"," ",RowBox[{"#1","!"}]}],RowBox[{"bin"," ","env"," ","usr"}]],
+StandardForm],"Output",CellLabel -> "Out[1]= ",ExpressionUUID -> "b8a3b197-5d2e-418b-992a-ef42ef3f4457"],Cell[
+BoxData[
+RowBox[{"{","}"}],StandardForm],"Output",CellLabel -> "Out[2]= ",ExpressionUUID -> "fc38fe94-24f5-4249-a752-8b972f21fae9"],Cell[
+BoxData[
+RowBox[{"{","}"}],StandardForm],"Output",CellLabel -> "Out[3]= ",ExpressionUUID -> "9b959031-9e24-4440-85dd-ed25686abd9a"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","7",",","5",",","7",",","9",",","11",",","28",",","44",",","6",",","8"}],"}"}],
+StandardForm],"Print",ExpressionUUID -> "9e2cc565-368b-426c-a04f-0b3c92dfbf1a"]},
+Open],ExpressionUUID -> "0848226d-f465-47ec-888f-7f48ff793e4c"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.1 for Wolfram Cloud 1.63.0.1 (July 14, 2022)"]

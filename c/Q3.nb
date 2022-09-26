@@ -1,0 +1,21 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{RowBox[{RowBox[{RowBox[{RowBox[
+{"#","!"}],"/","usr"}],"/","bin"}],"/","env"}]," ","wolframscript"}],"\n",RowBox[
+{RowBox[{"total","=","0"}],";"}],"\n",RowBox[{RowBox[{"AllFridays","[",RowBox[{"y1_Integer",","," ","y2_Integer"}],"]"}]," ",":="," ",RowBox[
+{"(",RowBox[{RowBox[{"For","[",RowBox[{RowBox[{"i","=","y1"}],",",RowBox[{"i","\[LessEqual]","y2"}],","," ",RowBox[
+{"i","++"}],",",RowBox[{"total","=",RowBox[{"total","+",RowBox[{"Length"," ","@"," ",RowBox[
+{"Select","[","\n"," ",RowBox[{RowBox[{"Table","[",RowBox[{RowBox[{"DateObject","@",RowBox[
+{"{",RowBox[{"i",","," ","m",","," ","13"}],"}"}]}],","," ",RowBox[{"{",RowBox[{"m",","," ","12"}],"}"}]}],"]"}],",","\n"," ",RowBox[
+{RowBox[{RowBox[{"DateString","[",RowBox[{"#",","," ","\"DayName\""}],"]"}]," ","==="," ","\"Friday\""}]," ","&"}]}],"\n","]"}]}]}]}]}],"]"}],";"," ",RowBox[
+{"Return","[","total","]"}]}],")"}]}],"\n",RowBox[{RowBox[{"(*"," ",RowBox[{"define"," ","function"," ","body"}]," ","*)"}],"\n","\n",RowBox[
+{"(*"," ",RowBox[{"boilerplate"," ","code"," ","to"," ","read"," ","input"," ","and"," ","write"," ","output"}]," ","*)"}],"\n",RowBox[
+{RowBox[{"Print","[",RowBox[{"AllFridays","[",RowBox[{"1456",","," ","2022"}],"]"}],"]"}],";"}]}]}],
+"Input",CellLabel -> "In[14]:= ",ExpressionUUID -> "0db6fe5a-613e-4770-b97a-46182328a503"],Cell[
+BoxData[
+FractionBox[RowBox[{"wolframscript"," ",RowBox[{"#1","!"}]}],RowBox[{"bin"," ","env"," ","usr"}]],
+StandardForm],"Output",CellLabel -> "Out[14]= ",ExpressionUUID -> "6b055687-7a1b-493a-b71a-e272f5335232"],Cell[
+BoxData[
+"975",StandardForm],"Print",ExpressionUUID -> "a06109f6-dd4e-4d89-843a-2d63856e6906"]},
+Open],ExpressionUUID -> "58c356da-62f9-4a62-a606-8079ca62ddbf"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.1 for Wolfram Cloud 1.63.0.1 (July 14, 2022)"]

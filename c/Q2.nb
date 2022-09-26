@@ -1,0 +1,16 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{RowBox[{"PancakeScramble","[","string_String","]"}]," ",":=",RowBox[
+{"(",RowBox[{RowBox[{"s","=","string"}],";",RowBox[{"For","[",RowBox[{RowBox[{"i","=","1"}],","," ",RowBox[
+{"i","<",RowBox[{"StringLength","[","string","]"}]}],","," ",RowBox[{"i","++"}],","," ",RowBox[
+{"s","=",RowBox[{"StringReplacePart","[",RowBox[{"string",",",RowBox[{"StringReverse","[",RowBox[
+{"StringTake","[",RowBox[{"s",","," ",RowBox[{"i","+","1"}]}],"]"}],"]"}],",",RowBox[
+{"{",RowBox[{"1",",",RowBox[{"i","+","1"}]}],"}"}]}],"]"}]}]}],"]"}],";",RowBox[{"Return","[","s","]"}]}],")"}]}],"\n",RowBox[
+{RowBox[{"(*"," ",RowBox[{"define"," ","function"," ","body"}]," ","*)"}],"\n","\n",RowBox[
+{"(*"," ",RowBox[{"boilerplate"," ","code"," ","to"," ","read"," ","input"," ","and"," ","write"," ","output"}]," ","*)"}],"\n",RowBox[
+{RowBox[{"answer"," ","="," ",RowBox[{"PancakeScramble","[","\"askdfghufghjyfghjiuyfghjuytsdhjkusdfjiua\"","]"}]}],";"}]," "}],"\n",RowBox[
+{RowBox[{"Print","[","answer","]"}],";"}]}],"Input",CellLabel -> "In[7]:= ",ExpressionUUID -> "98a61793-5266-46a1-8ae6-d4b2cd158f18"],Cell[
+BoxData[
+"\"aifskhsyjgyihfjgugdsakfhfhygjufhutdjudju\"",StandardForm],"Print",ExpressionUUID -> "b176dd43-fc59-4239-9a47-31b2b837850a"]},
+Open],ExpressionUUID -> "76d712cb-6be1-43e5-93d3-046276fbeda5"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.1 for Wolfram Cloud 1.63.0.1 (July 14, 2022)"]
